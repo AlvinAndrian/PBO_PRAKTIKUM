@@ -1,3 +1,10 @@
+/* 
+Nama   : Alvin Andrian Rizki
+NIM    : 201511003
+Kelas  : D3 A2 JTK
+SOAL 1 TYPEDATA
+*/
+
 import java.util.Scanner;
 
 public class dataType{ // class dataType
