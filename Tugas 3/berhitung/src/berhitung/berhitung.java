@@ -15,7 +15,7 @@ public class berhitung {
          B = input.nextInt();
          
          if (A >= 1 && A <= 1000 && B >= 1 && B <= 1000) {
-        	 switch (operator){
+		 switch (operator){
              case "*" : hasil = A*B;break; // perkalian
              case "/" : hasil = A/B;break; // pembagian
              case "+" : hasil = A+B;break; // pertambahan
@@ -31,7 +31,7 @@ public class berhitung {
 }
 
 /* 
- * PERMASALAHAN :
+ * CERITA :
  * Terjadi error ketika menggunakan seleksi kondisi If - else, terutama pada operatornya sempat error dengan 
  * menggunakan nextLine() yang mengakibatkan jadinya muncul error main, sejenak kepikiran menggunakan 
  * witch - case, hingga saya coba dan error dioperator sudah tidak lagi muncul
