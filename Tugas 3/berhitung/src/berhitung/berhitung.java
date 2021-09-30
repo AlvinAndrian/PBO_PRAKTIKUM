@@ -15,18 +15,18 @@ public class berhitung {
          B = input.nextInt();
          
          if (A >= 1 && A <= 1000 && B >= 1 && B <= 1000) {
-		 switch (operator){
-             case "*" : hasil = A*B;break; // perkalian
-             case "/" : hasil = A/B;break; // pembagian
-             case "+" : hasil = A+B;break; // pertambahan
-             case "-" : hasil = A-B;break; // pengurangan
-             case "%" : hasil = A%B;break; // pembagian
-             default : System.out.println("Tidak Ada");
-        	 }
+	     switch (operator){
+             	case "*" : hasil = A*B;break; // perkalian
+             	case "/" : hasil = A/B;break; // pembagian
+             	case "+" : hasil = A+B;break; // pertambahan
+             	case "-" : hasil = A-B;break; // pengurangan
+             	case "%" : hasil = A%B;break; // pembagian
+             	default : System.out.println("Tidak Ada");
+       	     }
          } else {
         	 System.out.println("Tidak bisa, angka kurang dari 1 atau lebih dari 1000");
          }
-          System.out.println(hasil);
+         System.out.println(hasil);
     }
 }
 
