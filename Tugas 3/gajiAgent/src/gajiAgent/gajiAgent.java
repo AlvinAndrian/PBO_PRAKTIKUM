@@ -32,7 +32,7 @@ public class gajiAgent {
 			System.out.println("Penghasilan : " + penghasilan);
 		}
 		else if (penjualan <= 15 && penjualan >= 1) {
-			denda = hargaItem - (hargaItem - ( hargaItem * 15/100));
+			denda = ((15 * hargaItem) - (14 * hargaItem)) * 15/100;
 			penghasilan = gaji - denda;
 			System.out.println("Penghasilan : " + penghasilan);
 		}
