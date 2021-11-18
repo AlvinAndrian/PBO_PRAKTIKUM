@@ -1,0 +1,3 @@
+interface Power {
+	void doPower ();
+}
