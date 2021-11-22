@@ -9,7 +9,7 @@ public class Rectangle extends Shape {
 	}
 	
 	public double area() {
-		return width = length;
+		return width * length;
 	}
 	
 	public String toString() {
